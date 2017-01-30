@@ -1,0 +1,57 @@
+.about
+    padding: 1em 0 5em
+    .about-text
+        width: 500px
+        margin: 4em auto
+        text-align: center
+
+        h2
+            font-size: 30px
+            color: $black
+            margin-bottom: 40px
+            line-height: 1.5
+            position: relative
+            text-transform: uppercase
+
+            &::after
+                content: ""
+                width: 60px
+                height: 2px
+                position: absolute
+                left: 0
+                right: 0
+                bottom: -10px
+                margin: 0 auto
+                background: $color-base
+
+        p
+            font-size: 18px
+            line-height: 1.5
+            color: $graydark
+
+    .box
+        border: 1px solid rgba(0, 0, 0, 0.05)
+        background-color: rgba(0, 0, 0, 0.05)
+        position: relative
+
+        a
+            width: 100%
+            display: block
+
+            img
+                width: 84%
+
+            .title
+                width: 100%
+                position: absolute
+                bottom: 40%
+                left: 42%
+                transform: rotate(270deg)
+
+                h3
+                    margin: 0
+                    padding: 0
+                    color: $black
+                    font-size: 18px
+                    letter-spacing: 3px
+                    text-transform: uppercase

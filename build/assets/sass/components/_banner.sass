@@ -1,0 +1,53 @@
+.banner-cover
+    height: 85vh
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: center
+    padding: 5em 0
+
+    header
+        max-width: 650px
+        text-shadow: 1px 0px 8px $black
+        z-index: 100
+
+        > h1, h2, p
+            color: white
+
+        > h1
+            font-size: 54px
+            font-weight: 400
+            margin-bottom: 20px
+            line-height: 1.3
+            text-transform: uppercase
+
+        > p
+            font-size: 20px
+            line-height: 1.5
+            margin-bottom: 30px
+
+            > a
+                color: $color-base
+
+    @media screen and (max-width: $screen-sm)
+        height: 600px
+
+
+#parallaxBar
+    background-image: url(../images/background-bg.jpg)
+    background-color: black
+    background-position: 50% 0
+    background-size: cover
+    background-repeat: no-repeat
+    position: relative
+
+    span
+        color: $color-base
+
+    &::after
+        content: ""
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        background: rgba($black, .5)
