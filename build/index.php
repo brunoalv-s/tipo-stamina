@@ -85,45 +85,53 @@
 
             </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="box">
-                            <a href="#">
-                                <img src="assets/images/trainer-1.jpg" alt="">
-                                <div class="title">
-                                    <h3>
-                                        Name
-                                    </h3>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                            <a href="#">
-                                <img src="assets/images/trainer-2.jpg" alt="">
-                                <div class="title">
-                                    <h3>
-                                        Name
-                                    </h3>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                            <a href="#">
-                                <img src="assets/images/trainer-3.jpg" alt="">
-                                <div class="title">
-                                    <h3>
-                                        Name
-                                    </h3>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box">
+                        <a href="#">
+                            <img src="assets/images/trainer-1.jpg" alt="">
+                            <div class="title">
+                                <h3>
+                                    Name
+                                </h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <a href="#">
+                            <img src="assets/images/trainer-2.jpg" alt="">
+                            <div class="title">
+                                <h3>
+                                    Name
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <a href="#">
+                            <img src="assets/images/trainer-3.jpg" alt="">
+                            <div class="title">
+                                <h3>
+                                    Name
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <div class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
+                <div class="grid-item">...</div>
+            </div>
         </div>
     </div>
 

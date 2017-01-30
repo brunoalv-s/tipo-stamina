@@ -1,5 +1,5 @@
 <?php
-    $NomeEmpresa = 'Nome Empresa';
+    $NomeEmpresa = 'Tipo Stamina';
     $slogan =   '';
     $author = 'http://www.tipopublicidade.com.br';
     $creditos = 'Tipo Publicidade';

@@ -16,6 +16,25 @@ $graydark: #828282
 a, span
     color: $color-base
 
+h2
+    font-size: 30px
+    margin-bottom: 40px
+    line-height: 1.5
+    position: relative
+    text-align: center
+    text-transform: uppercase
+
+    &::after
+        content: ""
+        width: 60px
+        height: 2px
+        position: absolute
+        left: 0
+        right: 0
+        bottom: -10px
+        margin: 0 auto
+        background: $color-base
+
 @import bootstrap/variables
 @import bootstrap/mixins
 
@@ -24,5 +43,7 @@ a, span
 @import components/banner
 @import components/services
 @import components/about
+@import components/schedule
+@import components/footer
 
 @import components/buttons

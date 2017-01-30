@@ -34,7 +34,7 @@ var gulp = require('gulp'),
     return gulp.src('build/assets/sass/**/*.{sass,scss}')
         .pipe(sourcemaps.init())
           .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write('../maps'))
         .pipe(gulp.dest('dist/assets/css'))
         .pipe(browserSync.reload({
             stream: true
