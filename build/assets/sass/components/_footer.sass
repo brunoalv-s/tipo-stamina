@@ -2,31 +2,41 @@ footer
     background-color: rgba($black, .85)
     background-blend-mode: color-burn
     background-image: url(../images/img_bg_1.jpg)
-    background-position: center
+    background-position: center 25%
     background-size: cover
     color: $white
     padding: 2em 0
 
     h4
         font-weight: bold
+        margin-bottom: 1em
         text-transform: uppercase
 
-    p, a
+    li, p, a
         font-size: 16px
         color: $graydark
-        line-height: 1.7
+        line-height: 1.5
+
+    ul
+        list-style: none
+
+        li
+            margin-bottom: 0.5em
+
+        .fa
+            width: 20px
+            text-align: center
+
+        a:hover
+            color: $color-base
+            cursor: pointer
+
 
     .col-md-4
         margin-bottom: 2em
 
-    .footer-links
-        ul
-            margin-left: 1.5em
-
-            a:hover
-                color: $color-base
-                cursor: pointer
-
+    .footer-about
+        text-align: justify
 
     .copyright
         padding: 2em 0 0
@@ -40,6 +50,7 @@ footer
             display: flex
             list-style: none
             justify-content: center
+
             li
                 color: $white
                 margin: 0 1em

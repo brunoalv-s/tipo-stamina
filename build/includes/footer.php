@@ -4,8 +4,15 @@
                 <h4><?=$NomeEmpresa;?></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
             </div>
-            <div class="col-md-4 footer-widget">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.3224794253347!2d-46.580330630252014!3d-23.581191616338838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c1156accfb9%3A0xb28e519318f6ec8e!2sR.+Fid%C3%A9lis+Papini%2C+347+-+Vila+Prudente%2C+S%C3%A3o+Paulo+-+SP%2C+03132-020!5e0!3m2!1spt-BR!2sbr!4v1485801710716" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-md-4">
+                <h4>Entre em contato</h4>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Rua dos Bobox, N&ordm; 0</li>
+                    <li><i class="fa fa-map" aria-hidden="true"></i> CEP: 08888-888 - São Paulo, SP</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> Telefone: (11) 8888-8888</li>
+                    <li><i class="fa fa-phone-square" aria-hidden="true"></i> Celular: (11) 8888-8888</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i> Email: email@dominio.com.br</li>
+                </ul>
             </div>
             <div class="col-md-4 footer-links">
                 <h4>Institucional</h4>
@@ -32,9 +39,12 @@
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
+<link rel="stylesheet" async href="assets/css/main.css" type="text/css" media="all">
+<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

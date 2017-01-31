@@ -65,8 +65,4 @@
     <link href="<?=$url.$imagem;?>" rel="image_src" />
 
     <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
