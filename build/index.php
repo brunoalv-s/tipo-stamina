@@ -91,9 +91,7 @@
                         <a href="#">
                             <img src="assets/images/trainer-1.jpg" alt="">
                             <div class="title">
-                                <h3>
-                                    Name
-                                </h3>
+                                <h3>Name</h3>
                             </div>
                         </a>
                     </div>
@@ -103,9 +101,7 @@
                         <a href="#">
                             <img src="assets/images/trainer-2.jpg" alt="">
                             <div class="title">
-                                <h3>
-                                    Name
-                                </h3>
+                                <h3>Name</h3>
                             </div>
                         </a>
                     </div>
@@ -115,9 +111,7 @@
                         <a href="#">
                             <img src="assets/images/trainer-3.jpg" alt="">
                             <div class="title">
-                                <h3>
-                                    Name
-                                </h3>
+                                <h3>Name</h3>
                             </div>
                         </a>
                     </div>
@@ -128,10 +122,39 @@
 
     <div class="schedule">
         <div class="container">
-            <h2>Schedule</h2>
-            <div class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
-                <div class="grid-item">...</div>
+            <h2>Programação</h2>
+
+            <div id="filters" class="button-group">
+                <!-- <button class="button is-checked" data-filter="*">Todos</button> -->
+                <button class="button" data-filter=".janeiro">Janeiro</button>
+                <button class="button" data-filter=".fevereiro">Fevereiro</button>
+                <button class="button" data-filter=".marco">Março</button>
+                <button class="button" data-filter=".abril">Abril</button>
+                <button class="button" data-filter=".maio">Maio</button>
+                <button class="button" data-filter=".junho">Junho</button>
+                <button class="button" data-filter=".julho">Julho</button>
+                <button class="button" data-filter=".agosto">Agosto</button>
+                <button class="button" data-filter=".setembro">Setembro</button>
+                <button class="button" data-filter=".outubro">Outubro</button>
+                <button class="button" data-filter=".novembro">Novembro</button>
+                <button class="button" data-filter=".dezembro">Dezembro</button>
             </div>
+
+            <div class="grid">
+                <div class="element-item julho " data-category="julho">
+                    <h3 class="name">Ateu</h3>
+                    <p class="symbol">Hg</p>
+                    <p class="number">80</p>
+                    <p class="weight">200.59</p>
+                </div>
+                <div class="element-item fevereiro ">
+                    <h3 class="name">Mel</h3>
+                    <p class="symbol">Mel</p>
+                    <p class="number">80</p>
+                    <p class="weight">200.59</p>
+                </div>
+            </div>
+
         </div>
     </div>
 
