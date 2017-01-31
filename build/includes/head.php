@@ -1,5 +1,12 @@
+<?php
+function html_compress($buffer){
+  return str_replace(array("\n","\r","\t"),'',$buffer);
+}
+
+ob_start("html_compress");
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
