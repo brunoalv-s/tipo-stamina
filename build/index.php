@@ -144,13 +144,26 @@
                 <div class="element-item julho " data-category="julho">
                     <h3 class="name">Ateu</h3>
                     <p class="symbol">Hg</p>
-                    <p class="number">80</p>
                     <p class="weight">200.59</p>
                 </div>
                 <div class="element-item fevereiro ">
                     <h3 class="name">Mel</h3>
                     <p class="symbol">Mel</p>
-                    <p class="number">80</p>
+                    <p class="weight">200.59</p>
+                </div>
+                <div class="element-item marco " data-category="julho">
+                    <h3 class="name">Ateu</h3>
+                    <p class="symbol">Hg</p>
+                    <p class="weight">200.59</p>
+                </div>
+                <div class="element-item marco ">
+                    <h3 class="name">Mel</h3>
+                    <p class="symbol">Mel</p>
+                    <p class="weight">200.59</p>
+                </div>
+                <div class="element-item fevereiro ">
+                    <h3 class="name">Mel</h3>
+                    <p class="symbol">Mel</p>
                     <p class="weight">200.59</p>
                 </div>
             </div>

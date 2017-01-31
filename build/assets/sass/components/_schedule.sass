@@ -51,50 +51,73 @@
 
     .grid
         border: 1px solid #333
+        display: flex
+        justify-content: center
 
-        &::after
-            content: ""
-            display: block
-            clear: both
+        // &::after
+        //     content: ""
+        //     display: block
+        //     clear: both
 
     .element-item
-        position: relative
-        float: left
-        width: 100px
-        height: 100px
-        margin: 5px
-        padding: 10px
-        background: #888
-        color: #262524
+        width: calc(100% / 5)
+        min-width: 120px
+        height: 150px
+        color: $white
+        display: flex
+        align-items: center
+        flex-flow: column wrap
+        border: 1px solid rgba($white, .4)
 
-        > *
-            margin: 0
-            padding: 0
+        @media (max-width: 389px)
+            width: calc(100% / 1)
+
+        @media (min-width: 270px) and (max-width: 389px)
+            width: calc(100% / 2)
+
+        @media (min-width: 390px) and (max-width: 640px)
+            width: calc(100% / 3)
 
         .name
-            position: absolute
-            left: 10px
-            top: 60px
-            text-transform: none
-            letter-spacing: 0
-            font-size: 12px
-            font-weight: normal
+            display: block
+            background-color: $color-base
+            font-size: 18px
+            padding: .4em 1em
 
-        .symbol
-            position: absolute
-            left: 10px
-            top: 0
-            font-size: 42px
-            font-weight: bold
-            color: white
-
-        .number
-            position: absolute
-            right: 8px
-            top: 5px
-
-        .weight
-            position: absolute
-            left: 10px
-            top: 76px
-            font-size: 12px
+            &::before
+                content: 'Nome: '
+        // position: relative
+        // float: left
+        // width: 180px
+        // height: 150px
+        // margin: 5px
+        // padding: 10px
+        // background: #888
+        // color: #262524
+        //
+        // > *
+        //     margin: 0
+        //     padding: 0
+        //
+        // .name
+        //     position: absolute
+        //     left: 10px
+        //     top: 60px
+        //     text-transform: none
+        //     letter-spacing: 0
+        //     font-size: 12px
+        //     font-weight: normal
+        //
+        // .symbol
+        //     position: absolute
+        //     left: 10px
+        //     top: 0
+        //     font-size: 42px
+        //     font-weight: bold
+        //     color: white
+        //
+        // .weight
+        //     position: absolute
+        //     left: 10px
+        //     top: 76px
+        //     font-size: 12px
