@@ -11,7 +11,7 @@ ob_start("html_compress");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TipoStamina - Template</title>
+    <title><?=$title;?> | <?=$NomeEmpresa;?></title>
 
     <link rel="shortcut icon" href="<?=$favicon;?>" />
     <meta name="theme-color" content="#000000">

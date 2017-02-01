@@ -24,7 +24,8 @@ var gulp = require('gulp'),
     gulp.task('dev', function() {
         connect.server({}, function() {
             browserSync({
-                proxy: proxyLink
+                proxy: proxyLink,
+                port:4000
             });
         });
     });

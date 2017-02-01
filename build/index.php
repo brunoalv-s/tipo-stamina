@@ -1,6 +1,6 @@
 <?php
-    $title = 'Home';
-    $description = '';
+    $title = 'Clinica Veterinária Klabin';
+    $description = 'Proporcionamos cuidados médicos com carinho e atenção para seu Animal.';
     $keywords = '';
 
     include('includes/geral.php');
@@ -9,36 +9,9 @@
 
 <body>
 
-    <header class="navbar">
-        <nav class="navbar nav-top">
-            <div class="container">
-                <p>Email: <a href="mailto:email@dominio.com.br">email@dominio.com.br</a></p>
-                <p>Telefone: (11) 8888-8888</p>
-            </div>
-        </nav>
-        <nav class="navbar container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">
-                    <img src="assets/images/logo.png" alt="">
-                </a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Trainer</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <?php
+        include 'includes/header.php';
+    ?>
 
     <section id="parallaxBar" class="col-md-12 banner-cover text-center" data-speed="2" data-type="background">
         <header>
